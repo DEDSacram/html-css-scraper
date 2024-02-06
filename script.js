@@ -5,6 +5,8 @@ var elements = document.querySelectorAll('*');
 var identifiers = new Set();
 
 // Loop through each element
+
+
 elements.forEach(function(element) {
     // If the element has a class
     if (element.classList.length > 0) {

@@ -1,0 +1,294 @@
+
+body
+.stranka:after
+.grecaptcha-badge
+.stranka.background:after
+
+
+
+.seo-nadpis
+.seo-nadpis span
+*
+*,*:before,*:after
+a
+.clear
+.obsah90
+.uvnitr
+.uvnitr.vetsi
+.uvnitr.center
+
+
+
+div#hlavicka
+div#hlavicka p.lang
+
+div#hlavicka p.lang a
+
+div#hlavicka .logo
+div#hlavicka .logo span
+.mezera
+
+div.pruh-bily,div.pruh-bily2
+div.pruh
+div.pruh.obrazek
+.sedy
+.modry
+div.pruh.obrazek .uvnitr
+div.pruh.obrazek:after
+div.pruh a.vse
+div.pruh .banner_fotka
+div.pruh .banner_text
+div.pruh .banner_text.bez
+
+.lightblue
+.padding5
+div.pruh-sedy
+div.pruh-bily::after
+div.pruh-bily2::before
+div.pruh-modry
+div.pruh-modry::after
+div.pruh-modry::before
+
+.top-600
+.top-700
+.top40
+.top30
+.left,.right
+.bun40
+.bun60
+.bun30
+.bun70
+.bun50
+.bun50.mensi
+.bun44
+.bun44.mez
+.height600
+
+.left
+.bunka100
+.bunka100 a.vse,.bunka50 a.vse,.bunka30 a.vse
+.bunka100 h3 a,.bunka50 h3 a
+.bunka30 h3 a
+.bunka100 .text,.bunka50 .text
+.ostatni .bunka100 .text,.ostatni .bunka50 .text
+.bunka100 h3
+.ostatni .bunka50 h3,.ostatni .bunka50:hover h3
+.ostatni .bunka30 h3,.ostatni .bunka30 p
+.ostatni .bunka50 h3 a,.ostatni .bunka50:hover h3 a
+.ostatni .bunka50 .text h3 a
+.bunka50 .text h3,.bunka50:hover .text h3
+.bunka100 ul li a,.bunka50 ul li a
+.bunka100 ul,.bunka50 ul
+.bunka100 ul li,.bunka50 ul li
+.bunka50
+.ostatni .bunka50
+.ostatni .bunka30
+.ostatni .bunka30 a.vice
+.ostatni .bunka50 .nahled
+.ostatni .bunka30 .nahled
+.ostatni .bunka50:nth-child(2n)
+.ostatni .bunka30:nth-child(3n)
+.ostatni .bunka50.twenty
+.ostatni .bunka50.twenty:nth-child(2n)
+.os .bunka100:after,.bunka50:after
+.ostatni .bunka100:after,.ostatni .bunka50:after
+.ostatni .bunka100 a.vse:after,.ostatni .bunka50 a.vse:after
+.ostatni.vypis .bunka50
+.ostatni.vypis .bunka50 .nahled
+.ostatni .bunka50:hover a.vse:after
+.ostatni.vypis .bunka50 .nahled:after
+.ostatni.vypis .bunka50:hover .nahled:after
+.ostatni.vypis .bunka100 a.vse:after,.ostatni.vypis .bunka50 a.vse:after
+.bunka50:last-of-type:after
+.bunka50:hover:after,.bunka100:hover:after
+.bunka50:last-of-type a.link
+.bunka50:last-of-type a.link:hover,.bunka50:hover:last-of-type a.link
+.bunka100:hover .text h3 a,.bunka100:hover .text ul li a,.bunka50:hover .text h3 a,.bunka50:hover .text ul li a
+
+
+
+
+div.postava
+div.postava img
+div.postavaikony
+div.postavaikony div.ikona1
+div.postavaikony div.ikona2
+div.postavaikony div.ikona3
+div.postavaikony div.ikona4
+div.postavaikony div.ikona1 p,div.postavaikony div.ikona2 p,div.postavaikony div.ikona3 p,div.postavaikony div.ikona4 p
+div.postavaikony div.ikona1 p
+div.postavaikony div.ikona2 p
+div.postavaikony div.ikona3 p
+div.postavaikony div.ikona4 p
+div.postavaikony p strong
+
+
+
+
+div#paticka
+div#paticka .uvnitr
+div#paticka .uvnitr .text1
+div#paticka .texty .kontakty
+.texty ul
+.texty ul li
+.texty ul li:after
+.kontakty li,.texty .kontakty li
+.kontakty li a
+.kontakty li.email:after
+.kontakty li.telefon:after
+
+.formular
+.formular button
+.formular .form50
+.formular .form50 p
+.formular .form50 p input
+.formular .form50 p textarea
+
+div#paticka .patlogo
+div#paticka .copy
+div#paticka .copy a
+div#paticka .socialni
+div#paticka .socialni li
+div#paticka .socialni li a
+div#paticka .socialni li a.facebook
+div#paticka .socialni li a.instagram
+div#paticka .socialni li a.youtube
+div#paticka .socialni li a span
+
+
+
+#back-top
+#back-top a
+#back-top a:hover
+#back-top a::before
+
+div.pruh-obrazek
+div.pruh-obrazek .bunka
+div.pruh-obrazek .bunka.right
+div.pruh-obrazek .bunka.right2
+div.pruh-obrazek .bunka h3
+div.pruh-obrazek .bunka h4
+div.pruh-obrazek .bunka p
+div.pruh-obrazek .bunka p strong
+div.pruh-obrazek .bunka p u
+div.pruh-obrazek .bunka p.radky
+div.pruh-obrazek a.facebook
+div.pruh-obrazek a.instagram
+div.pruh-obrazek a.youtube
+
+div.pruh-obrazek .bunka.right_mobil
+
+div.pruh-obrazek input[type=text]
+div.pruh-obrazek textarea
+div.pruh-obrazek .pole-male
+div.pruh-obrazek .pole-male input
+div.pruh-obrazek input.pole-male::placeholder
+
+input.zaskrkavatko[type="checkbox"]
+input.zaskrkavatko[type=radio],input.zaskrkavatko[type=checkbox]
+input.zaskrkavatko[type="checkbox"],input.zaskrkavatko[type="radio"]
+input.zaskrkavatko[type="checkbox"]:checked+label
+input.zaskrkavatko[type="checkbox"]:not(:checked)+label,input.zaskrkavatko[type="checkbox"]:checked+label
+input.zaskrkavatko[type="checkbox"]:not(:checked)+label::before,input.zaskrkavatko[type="checkbox"]:checked+label::before
+input.zaskrkavatko[type="checkbox"]:checked+label::after,input.zaskrkavatko [type="checkbox"]:checked+label::after
+button.bily,.vice.bily
+button.bily:hover,.vice.bily:hover
+
+
+.strankovani
+.strankovani a
+.strankovani a:hover
+.strankovani a.static
+.strankovani a.predchozi,.strankovani a.dalsi
+.strankovani a.predchozi:hover,.strankovani a.dalsi:hover
+.strankovani a.predchozi:after
+.strankovani a.dalsi:after
+.predpo
+.predpo img
+
+.spoluprace
+.spoluprace li
+.spoluprace li:after
+.spoluprace li:nth-child(1):after
+.spoluprace li:nth-child(2):after
+.spoluprace li:nth-child(3):after
+.spoluprace li:nth-child(4):after
+.spoluprace li:before
+.spoluprace li:last-child:before
+
+
+.foto
+.foto:nth-of-type(3n)
+.foto a
+.foto a:after
+.foto a:hover:after
+.foto .nahled
+.foto p
+.fotogalerie2 .foto
+.fotogalerie2 .foto .nahled
+.fotogalerie2 .foto:nth-of-type(2n)
+.fotogalerie2 .foto:nth-of-type(3n)
+.video
+
+
+.bunkaseda
+.texty .kontakty
+.texty .socialni
+.texty .socialni li
+.texty .socialni li:after
+.texty .socialni li:nth-of-type(2)
+.texty .socialni li:nth-of-type(3)
+.texty .socialni li a
+.texty .socialni li a.facebook
+.texty .socialni li a.instagram
+.texty .socialni li a.youtube
+.texty .socialni li a span
+.padding_left_10_prc
+
+
+.pruhdrobeckova
+ul#nadpisy-kat
+
+ul#nadpisy-kat li
+ul#nadpisy-kat li::after
+ul#nadpisy-kat li:nth-of-type(1)
+ul#nadpisy-kat li:nth-last-of-type(1)::after
+ul#nadpisy-kat li a
+ul#nadpisy-kat li a.aktivni
+ul#nadpisy-kat li a.prvni
+.fotka30_prava
+
+
+.tabulka.aktivni
+.tabulka
+.cenik.sirka25
+.cenik.sirka33
+.submenu
+.submenu li
+.submenu li.aktivni
+
+.tab
+.tab.aktivni
+.cenik
+.zn
+.cenik:last-of-type
+.cenik div
+.cenik div:nth-of-type(1)
+.cenik div:nth-of-type(2)
+.cenik div h3
+.cenik div:nth-of-type(1) p
+.cenik div:nth-of-type(2) p
+.uvnitr .texty .cenik div h4,.bunka h4
+.cenik ul
+.cenik ul li
+.cenik ul li:after
+.bottom50
+
+form label.error
+form label#osobni-error
+#form_sub input[type=text].error
+#form_sub input[type=checkbox].error:before
+p
+#mail-status
+.error
+.success

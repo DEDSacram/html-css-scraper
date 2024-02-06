@@ -9,21 +9,6 @@ body {
   width: 100%;
 }
 
-.seo-nadpis {
-  position: absolute;
-  z-index: -1;
-  top: -1000px;
-  width: 20%;
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: both;
-}
-
 .uvnitr {
   width: 100%;
   max-width: 1200px;
@@ -35,51 +20,10 @@ a {
   padding-right: 20px;
 }
 
-.mezera {
-  height: 40px;
-  clear: both;
-}
-
-.lightblue {
-  background-color: rgba(242, 251, 253, 1);
-}
-
-.padding5 {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.bun50 {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-}
-
-.formular {
-  width: 70%;
-  margin-top: 40px;
-  position: relative;
-}
-
-.spoluprace {
-  width: 100%;
-  margin-top: 40px;
-}
-
 .tabulka {
   display: grid;
   margin-bottom: 50px;
   grid-auto-flow: column;
-  display: none;
-}
-
-.submenu {
-  margin-bottom: 20px;
-  min-height: 57px;
-}
-
-.tab {
   display: none;
 }
 
@@ -97,16 +41,6 @@ p {
   /*  text-align: justify;  */
 }
 
-#mail-status {
-  width: fit-content;
-  margin-bottom: 20px;
-  padding: 12px;
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(40, 40, 40);
-  font-size: 16px;
-  font-weight: bold;
-}
-
 body {
   text-align: center;
   padding-left: 0px;
@@ -116,21 +50,6 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
   width: 100%;
-}
-
-.seo-nadpis {
-  position: absolute;
-  z-index: -1;
-  top: -1000px;
-  width: 20%;
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: both;
 }
 
 .uvnitr {
@@ -148,97 +67,6 @@ a {
   .uvnitr {
     padding-left: 20px;
     padding-right: 20px;
-  }
-}
-
-.mezera {
-  height: 40px;
-  clear: both;
-}
-
-@media all and (max-width: 1024px) {
-  div#hlavicka,
-  div#hlavicka.posun {
-    width: 100%;
-    max-width: 100%;
-    height: 111px;
-    text-align: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    top: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    border-left: none;
-    border-right: none;
-    z-index: 1000;
-    background-color: rgba(255, 255, 255, 1);
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-  }
-
-  .mezera {
-    height: 40px;
-  }
-
-  div#hlavicka .logo {
-    margin-top: 25px;
-    margin-left: 0px;
-  }
-}
-
-.lightblue {
-  background-color: rgba(242, 251, 253, 1);
-}
-
-.padding5 {
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.bun50 {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-}
-
-@media all and (max-width: 600px) {
-  .bun50,
-  .bun44 {
-    width: 100%;
-    float: left;
-  }
-
-  .bun44.mez {
-    width: 100%;
-    margin-right: 0%;
-  }
-
-  .height600 {
-    height: auto;
-  }
-
-  .top40 {
-    margin-top: 0%;
-  }
-
-  .top30 {
-    margin-top: 0%;
-  }
-
-  .bun40,
-  .bun60,
-  .bun30,
-  .bun70 {
-    width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    position: relative;
   }
 }
 
@@ -337,42 +165,10 @@ a {
   }
 }
 
-.formular {
-  width: 70%;
-  margin-top: 40px;
-  position: relative;
-}
-
-@media all and (max-width: 500px) {
-  div#paticka .form50 {
-    padding-right: 0px;
-    width: 100%;
-  }
-
-  .kontakty {
-    width: 100%;
-    margin-left: 0%;
-  }
-}
-
-.spoluprace {
-  width: 100%;
-  margin-top: 40px;
-}
-
 .tabulka {
   display: grid;
   margin-bottom: 50px;
   grid-auto-flow: column;
-  display: none;
-}
-
-.submenu {
-  margin-bottom: 20px;
-  min-height: 57px;
-}
-
-.tab {
   display: none;
 }
 
@@ -426,14 +222,4 @@ a {
 
 p {
   /*  text-align: justify;  */
-}
-
-#mail-status {
-  width: fit-content;
-  margin-bottom: 20px;
-  padding: 12px;
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(40, 40, 40);
-  font-size: 16px;
-  font-weight: bold;
 }

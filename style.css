@@ -2945,7 +2945,7 @@ ul#nadpisy-kat li a.prvni {
 /* ceník */
 
 
-.tabulka.aktivni {
+.tabulka .aktivni {
     display: grid;
     grid-auto-flow: column;
 }

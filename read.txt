@@ -1,0 +1,18 @@
+INSPECT IN WEB COPY OUTER HTML OF UPPER MOST ELEMENT
+HAVE FIRE SOURCE VIEWER COPY CSS
+
+
+COPY HTML into index.html
+
+COPY CSS INTO style.css
+
+open index.html in browser go into console
+run code inside script.js
+copy selectors output into cool.js
+
+run node cool.js
+
+now you have all you need in new.css 
+
+additionally you can uncomment lines in cool.js to get the rules and pseudoclasses
+for simplicity we only get classes ids and tags

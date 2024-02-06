@@ -1,5 +1,5 @@
 // Select all elements in the body
-var elements = document.body.querySelectorAll('*');
+var elements = document.querySelectorAll('*');
 
 // Create an empty Set to store unique class names, ids, and tag names
 var identifiers = new Set();

@@ -1,59 +1,112 @@
 let selectors = [
-  ".component-pricing-desktop",
-  "div",
-  ".component-pricing-button-main-plans",
-  ".component-pricing-button",
-  ".component-pricing-button-arrow",
-  ".component-pricing-button-arrow-icon",
-  "svg",
-  "use",
-  ".component-pricing-button-caption",
-  ".component-pricing-table-main-container",
-  ".component-pricing-table-container",
-  ".component-pricing-table-main",
-  ".component-pricing-table",
-  ".component-pricing-table-columns",
-  ".component-pricing-plan",
-  ".component-pricing-plan-header",
-  ".component-pricing-plan-title",
-  ".component-pricing-plan-description",
-  ".component-pricing-plan-content",
-  ".component-pricing-plan-price-container",
-  ".component-pricing-plan-price-wrapper",
-  ".component-pricing-plan-price",
-  ".component-pricing-plan-price-currency",
-  ".component-pricing-plan-price-value",
-  ".component-pricing-plan-price-period",
-  ".component-pricing-plan-price-caption",
-  ".component-pricing-plan-price-save-yearly-placeholder",
-  ".component-pricing-plan-button-container",
-  ".component-pricing-plan-button",
-  ".button-blue",
-  ".button-40",
-  ".button-full-width",
-  ".button",
-  "a",
-  ".component-pricing-plan-features",
-  ".component-pricing-plan-features-item-bold",
-  ".component-pricing-plan-features-item",
-  ".component-pricing-plan-features-item-name",
-  "span",
-  ".tooltip",
-  ".tooltip-content",
-  ".tooltip-content-inner",
-  "p",
-  ".component-pricing-plan-descriptiondddd",
-  ".component-pricing-plan-features-item-strikethrough",
-  ".component-pricing-plan-discount",
-  ".component-pricing-plan-price-old",
-  ".component-pricing-plan-price-save-yearly",
-  ".component-pricing-plan-price-save-yearly-value",
-  ".component-pricing-plan-popular",
-  ".component-pricing-table-enterprise-container",
-  ".component-pricing-table-enterprise",
-  ".component-pricing-table-enterprise-custom-plan",
-  ".component-pricing-button-enterprise-plans"
-]
+    "html",
+    "head",
+    "meta",
+    "title",
+    "link",
+    "body",
+    ".sm-px-4",
+    "div",
+    ".color-bg-gray-light",
+    ".sm-br-4",
+    ".lg-mw-13",
+    ".mx-a",
+    ".p-3",
+    ".sm-p-4",
+    ".md-p-5",
+    ".pos-r",
+    ".ov-h",
+    ".lg-px-4",
+    ".my-3",
+    ".sm-my-4",
+    ".xlg-my-5",
+    ".lg-mw-12",
+    ".side-tabs",
+    ".lg-flex",
+    ".lg-justify-between",
+    ".lg-items-center",
+    ".lg-ml-0",
+    ".lg-mr-0",
+    ".ta-c",
+    ".lg-w-30",
+    ".fit",
+    ".mb-4",
+    ".md-mb-0",
+    ".z-10",
+    ".lg-order-1",
+    ".lg-pl-5",
+    ".side-tabs__nav",
+    ".touch-scroll",
+    ".o-x-a",
+    ".list-reset",
+    ".justify-start",
+    ".lg-justify-around",
+    ".flex",
+    ".lg-flex-column",
+    "ul",
+    ".side-tabs__nav-item",
+    ".active",
+    ".br-3",
+    ".cur-p",
+    "li",
+    ".side-tabs__nav-link",
+    ".wf-100",
+    ".lg-w-a",
+    ".lh-title",
+    ".lg-ta-l",
+    ".fs3",
+    ".md-fs2",
+    ".lg-fs1",
+    ".d-b",
+    ".side-tabs__nav-link-text",
+    "strong",
+    ".wf-125",
+    ".td-n-hover",
+    ".td-n",
+    "a",
+    ".fw-n",
+    ".lg-w-70",
+    ".tab-content",
+    ".side-tabs__content",
+    ".items-center",
+    ".modal",
+    ".fade",
+    ".video-modal",
+    "#videoModal",
+    ".modal-dialog",
+    ".modal-lg",
+    ".modal-content",
+    ".modal-body",
+    ".embed-responsive",
+    ".embed-responsive-16by9",
+    ".tab-pane",
+    "#side-tab-1",
+    ".br-10",
+    "img",
+    "#side-tab-2",
+    "#side-tab-3",
+    "#side-tab-4",
+    "#side-tab-5",
+    "#side-tab-6",
+    ".d-ib",
+    ".transition",
+    ".video-modal-trigger",
+    ".md-miwf-600",
+    ".xlg-miwf-800",
+    ".youtube-custom__play-button",
+    "#side-tab-7",
+    ".color-bg-white",
+    ".bs-5",
+    ".ta-r",
+    ".mtn-6",
+    ".lg-mt-0",
+    ".mrn-3",
+    ".wf-175",
+    ".sm-wf-225",
+    ".lg-pos-a",
+    ".bottom-4",
+    ".rightn-4"
+  ]
 
 
 
@@ -75,42 +128,43 @@ const rules = obj.stylesheet.rules.filter(rule => {
             // Check if the selector has pseudo
 
 
-            // const hasPseudo = selector.includes(':');
-            // return (selectors.includes(selector) || selectors.includes('.' + selector) || selectors.includes('#' + selector)) || hasPseudo;
-            return (selectors.includes(selector) || selectors.includes('.' + selector) || selectors.includes('#' + selector));
+            const hasPseudo = selector.includes(':');
+            const haschild = selector.includes('>');
+            return (selectors.includes(selector) || selectors.includes('.' + selector) || selectors.includes('#' + selector)) || hasPseudo || haschild;
+            // return (selectors.includes(selector) || selectors.includes('.' + selector) || selectors.includes('#' + selector));
         });
     }
     return false;
 });
 
 // Get all rules that mention the selectors
-// const mentionedRules = obj.stylesheet.rules.filter(rule => {
+const mentionedRules = obj.stylesheet.rules.filter(rule => {
 
-//     //    // If the rule is a media rule
-//     // if (rule.type === 'media') {
-//     //     // Check if any of the contained rules apply to your selectors
-//     //     return rule.rules.some(cssRule =>
-//     //         selectors.some(sel => cssRule.selectors.includes(sel))
-//     //     );
-//     // }
+    //    // If the rule is a media rule
+    // if (rule.type === 'media') {
+    //     // Check if any of the contained rules apply to your selectors
+    //     return rule.rules.some(cssRule =>
+    //         selectors.some(sel => cssRule.selectors.includes(sel))
+    //     );
+    // }
 
-//     if (rule.rules) {
-//         // Check if any of the contained rules apply to your selectors
-//         return rule.rules.some(cssRule =>
-//             selectors.some(sel => cssRule.selectors && cssRule.selectors.includes(sel))
-//         );
-//     }
+    if (rule.rules) {
+        // Check if any of the contained rules apply to your selectors
+        return rule.rules.some(cssRule =>
+            selectors.some(sel => cssRule.selectors && cssRule.selectors.includes(sel))
+        );
+    }
 
 
-//     // Check if any of the contained rules apply to your selectors
-//     if (rule.selectors) {
-//         return rule.selectors.some(selector => selectors.includes(selector));
-//     }
-//     return false;
-// });
+    // Check if any of the contained rules apply to your selectors
+    if (rule.selectors) {
+        return rule.selectors.some(selector => selectors.includes(selector));
+    }
+    return false;
+});
 
-// // Add the mentionedRules to the rules array
-// rules.push(...mentionedRules);
+// Add the mentionedRules to the rules array
+rules.push(...mentionedRules);
 
 
 // Create a new CSS string with only the rules you're interested in
